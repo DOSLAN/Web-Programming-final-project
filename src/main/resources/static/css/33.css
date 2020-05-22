@@ -1,0 +1,35 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.screen {
+    height: 100%;
+    width: 100%;
+    background: #0004ff;
+    animation: animate 3s ease-out infinite;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
+    17%{
+        opacity: 0;
+    }
+    33%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    67%{
+        opacity: 0;
+    }
+    83%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}

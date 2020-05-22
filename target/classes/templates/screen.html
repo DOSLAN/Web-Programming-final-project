@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.springframework.org/schema/data/jaxb">
+<head>
+    <meta charset="UTF-8" >
+    <title>Screen</title>
+    <link th:if="${coordinates == 11}" rel="stylesheet" th:href="@{/css/11.css}">
+    <link th:if="${coordinates == 12}" rel="stylesheet" th:href="@{/css/12.css}">
+    <link th:if="${coordinates == 13}" rel="stylesheet" th:href="@{/css/13.css}">
+    <link th:if="${coordinates == 14}" rel="stylesheet" th:href="@{/css/14.css}">
+    <link th:if="${coordinates == 21}" rel="stylesheet" th:href="@{/css/21.css}">
+    <link th:if="${coordinates == 22}" rel="stylesheet" th:href="@{/css/22.css}">
+    <link th:if="${coordinates == 23}" rel="stylesheet" th:href="@{/css/23.css}">
+    <link th:if="${coordinates == 24}" rel="stylesheet" th:href="@{/css/24.css}">
+    <link th:if="${coordinates == 31}" rel="stylesheet" th:href="@{/css/31.css}">
+    <link th:if="${coordinates == 32}" rel="stylesheet" th:href="@{/css/32.css}">
+    <link th:if="${coordinates == 33}" rel="stylesheet" th:href="@{/css/33.css}">
+    <link th:if="${coordinates == 34}" rel="stylesheet" th:href="@{/css/34.css}">
+    <link th:if="${coordinates == 41}" rel="stylesheet" th:href="@{/css/41.css}">
+    <link th:if="${coordinates == 42}" rel="stylesheet" th:href="@{/css/42.css}">
+    <link th:if="${coordinates == 43}" rel="stylesheet" th:href="@{/css/43.css}">
+    <link th:if="${coordinates == 44}" rel="stylesheet" th:href="@{/css/44.css}">
+</head>
+<body>
+    <div class="screen" th:style="'animation-delay: '+${delay}+'s;'"></div>
+</body>
+</html>
